@@ -1,0 +1,17 @@
+h3 {
+    margin: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    width: 60%;
+    
+}
+
+
+.view {
+    background: gray;
+    height: 100px;
+}

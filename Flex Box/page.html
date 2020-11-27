@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="grid">
+        <h3 style="grid-column: 1; grid-row: 1;">Flex Container</h3>
+        <h3 style="grid-column: 2; grid-row: 1;">Flex Itens</h3>
+           
+        <fieldset style="grid-column: 1; grid-row: 2;">
+          <legend>Display:</legend>
+          <div>
+            <input id="display-flex" type="radio" name="diplay" value="flex">
+            <label for="display-flex">flex</label>
+          </div>
+          <div>
+            <input id="display-inline-flex" type="radio" name="diplay" value="inline-flex">
+            <label for="display-inline-flex">inline-flex</label>
+          </div>
+        </fieldset>
+      
+
+        <fieldset style="grid-column: 1; grid-row: 3;">
+          <legend>Flex Direction</legend>
+          <div>
+            <input id="flex-direction" type="radio" name="flex-direction" value="row" checked>
+            <label for="flex-direction">row (default)</label>
+          </div>
+          <div>
+            <input id="flex-direction" type="radio" name="flex-direction" value="row-reverse">
+            <label for="flex-direction">row-reverse</label>
+          </div>
+          <div>
+            <input id="flex-direction" type="radio" name="flex-direction" value="column">
+            <label for="flex-direction">column</label>
+          </div>
+          <div>
+            <input id="flex-direction" type="radio" name="flex-direction" value="column-reverse">
+            <label for="flex-direction">column-reverse</label>
+          </div>
+        </fieldset>
+
+        <fieldset style="grid-column: 1; grid-row: 4;">
+          <legend>Flex Wrap</legend>
+          <div>
+            <input id="flex-wrap" type="radio" name="flex-wrap" value="nowrap" checked>
+            <label for="flex-wrap">nowrap (default)</label>
+          </div>
+          <div>
+            <input id="flex-wrap" type="radio" name="flex-wrap" value="wrap">
+            <label for="flex-wrap">wrap</label>
+          </div>
+          <div>
+            <input id="flex-wrap" type="radio" name="flex-wrap" value="wrap-reverse">
+            <label for="flex-wrap">wrap-reverse</label>
+          </div>
+        </fieldset>
+
+        <fieldset style="grid-column: 1; grid-row: 5;">
+          <legend>Justify Content</legend>
+          <div>
+            <input id="justify-content" type="radio" name="justify-content" value="center" >
+            <label for="flex-wrap">center</label>
+          </div>
+          <div>
+            <input id="justify-content" type="radio" name="justify-content" value="flex-start" >
+            <label for="flex-wrap">flex-start</label>
+          </div>
+          <div>
+            <input id="justify-content" type="radio" name="justify-content" value="flex-end" >
+            <label for="flex-wrap">flex-end</label>
+          </div>
+          <div>
+            <input id="justify-content" type="radio" name="justify-content" value="space-around" >
+            <label for="flex-wrap">space-around</label>
+          </div>
+          <div>
+            <input id="justify-content" type="radio" name="justify-content" value="space-between" >
+            <label for="flex-wrap">space-between</label>
+          </div>
+        </fieldset>
+
+        <fieldset style="grid-column: 1; grid-row: 6;">
+          <legend>Align Items</legend>
+          <div>
+            <input id="align-items-center" type="radio" name="align-items" value="center" >
+            <label for="align-items-center">center</label>
+          </div>
+          <div>
+            <input id="align-items-flex-start" type="radio" name="align-items" value="flex-start" >
+            <label for="align-items-flex-start">flex-start</label>
+          </div>
+          <div>
+            <input id="align-items-flex-end" type="radio" name="align-items" value="flex-end" >
+            <label for="align-items-flex-end">flex-end</label>
+          </div>
+          <div>
+            <input id="align-items-stretch" type="radio" name="align-items" value="stretch" >
+            <label for="align-items-stretch">stretch</label>
+          </div>
+          <div>
+            <input id="align-items-baseline" type="radio" name="align-items" value="baseline" >
+            <label for="align-items-baseline">baseline</label>
+          </div>
+        </fieldset>
+
+        <fieldset style="grid-column: 1; grid-row: 7;">
+          <legend>Align Content</legend>
+          <div>
+            <input id="align-content-space-between" type="radio" name="align-content" value="space-between" >
+            <label for="align-content-space-between">space-between</label>
+          </div>
+          <div>
+            <input id="align-content-space-around" type="radio" name="align-content" value="space-around" >
+            <label for="align-content-space-around">space-around</label>
+          </div>
+          <div>
+            <input id="align-content-stretch" type="radio" name="align-content" value="stretch" >
+            <label for="align-content-stretch">stretch</label>
+          </div>
+          <div>
+            <input id="align-content-center" type="radio" name="align-content" value="center" >
+            <label for="align-content-center">center</label>
+          </div>
+          <div>
+            <input id="align-content-flex-start" type="radio" name="align-content" value="flex-start" >
+            <label for="align-content-flex-start">flex-start</label>
+          </div>
+          <div>
+            <input id="align-content-flex-end" type="radio" name="align-content" value="flex-end" >
+            <label for="align-content-flex-end">flex-end</label>
+          </div>
+        </fieldset>
+     
+
+      
+       
+
+        <fieldset style="grid-column: 2; grid-row: 2;">
+          <legend>Order</legend>
+          <input type="number">
+        </fieldset>
+
+        <fieldset style="grid-column: 2; grid-row: 3;">
+          <legend>Flex Grow</legend>
+          <input type="number">
+        </fieldset>
+
+        <fieldset style="grid-column: 2; grid-row: 4;">
+          <legend>Flex Shrink</legend>
+          <input type="number">
+        </fieldset>
+
+        <fieldset style="grid-column: 2; grid-row: 5;">
+          <legend>Flex Basis</legend>
+          <input type="number">
+        </fieldset>
+
+        <fieldset style="grid-column: 2; grid-row: 6;">
+          <legend>Align Self</legend>
+          <div>
+            <input id="align-self-center" type="radio" name="align-self" value="center" >
+            <label for="align-self-center">center</label>
+          </div>
+          <div>
+            <input id="align-self-center-flex-start" type="radio" name="align-self" value="flex-start" >
+            <label for="align-self-center-flex-start">flex-start</label>
+          </div>
+          <div>
+            <input id="align-self-center-flex-end" type="radio" name="align-self" value="flex-end" >
+            <label for="align-self-center-flex-end">flex-end</label>
+          </div>
+        </fieldset>
+        
+        <fieldset>
+          <legend>Adicionar/Remover</legend>
+          <button>Adicionar</button>
+          <button>Remover</button>
+        </fieldset>
+
+      
+      <div class="view" style="grid-column: 1; grid-row: 8; grid-column-end: 3;"></div>
+      
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
